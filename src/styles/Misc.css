@@ -1,0 +1,30 @@
+.misc {
+	height: 40px;
+	background-color: #1d2631;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.ama-article {
+	text-decoration: none;
+	display: flex;
+	color: white;
+	margin: 0px 20px;
+	font-size: 15px;
+}
+
+.status {
+	color: white;
+	font-size: 15px;
+	margin: 0px 20px;
+}
+
+@media (max-width: 720px) {
+	.status {
+		font-size: 12px;
+	}
+	.ama-article {
+		font-size: 12px;
+	}
+}

@@ -1,0 +1,10 @@
+.orders > h2 {
+	padding: 25px;
+	border-bottom: 1px solid darkgray;
+}
+
+@media (max-width: 720px) {
+	.orders > h2 {
+		text-align: center;
+	}
+}
